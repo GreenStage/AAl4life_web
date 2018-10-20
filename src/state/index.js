@@ -62,6 +62,7 @@ export default class State {
 			this.store[key].shift();
 		}
 		this.store[key].push(value);
+		State.notifyRenderers();
 	}
 
 	get(key){

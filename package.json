@@ -8,7 +8,7 @@
     "react": "^16.5.2",
     "react-addons-css-transition-group": "^15.6.2",
     "react-bootstrap": "^0.32.4",
-    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5",
     "socket.io-client": "^2.1.1"

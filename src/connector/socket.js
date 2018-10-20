@@ -59,7 +59,7 @@ export class Socket {
 	subUserTemp(account_id,callback){
 		this.sock.on('USER_CH_TEMPERATURE' + account_id,(data)=>{
 			console.log("User Temperature" + data.account_id +": " + data.value_skin);
-			callback(data.account_id,data.value_amb,data.value_skin,data.issued_at);
+			callback(data.account_id,data.value_amb,data.value_skin,data.temp2,data.issued_at);
 		});
 	}
 	unsubUserTemp(account_id){
